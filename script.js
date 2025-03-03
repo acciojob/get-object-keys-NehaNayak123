@@ -5,12 +5,14 @@ let student={
 	// city:"patna"
 }
 function getKeys(obj){
-	let ans=[];
-	for(let t in ans){
-		ans.push(t)
-	}
+	// let ans=[];
+	// for(let t in ans){
+	// 	ans.push(t)
+	// }
 
-	// return Object.keys(student)
+	return Object.keys(obj)
 	
-	return ans;
+	// return ans;
 }
+
+console.log(getKeys(student))
