@@ -1,18 +1,13 @@
 //your JS code here. If required.
 let student={
 	name:"Neha",
-	// age:"25",
-	// city:"patna"
+	getKeys:(obj)=>{
+		return Object.keys(obj);
+	}
 }
-function getKeys(obj){
-	// let ans=[];
-	// for(let t in ans){
-	// 	ans.push(t)
-	// }
-
-	return Object.keys(obj)
-	
-	// return ans;
-}
-
 console.log(getKeys(student))
+// function getKeys(obj){
+// 	return Object.keys(obj);
+// }
+
+// console.log(getKeys(student))
