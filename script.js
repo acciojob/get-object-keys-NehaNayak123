@@ -6,8 +6,11 @@ let student={
 }
 function getKeys(obj){
 	let ans=[];
+	for(let t in ans){
+		ans.push(t)
+	}
 
-	return Object.keys(student)
+	// return Object.keys(student)
 	
-	// return ans;
+	return ans;
 }
